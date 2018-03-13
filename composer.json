@@ -1,0 +1,25 @@
+{
+    "name": "mikkel/phpunit-gherkin",
+    "description": "A fluent Gherkin interface for PHPUnit.",
+    "require": {
+        "phpunit/phpunit": "5.7.*",
+        "php": "5.6.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikkel Paulson",
+            "email": "packagist@mikkel.ca"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/"
+		]
+	}
+}
